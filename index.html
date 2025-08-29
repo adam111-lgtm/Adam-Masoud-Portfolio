@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>MMD Academy</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"><img src="./img/Lucid_Origin_a_stylized_logo_of_a_programmer_with_bold_red_and_0-removebg-preview.png" alt=""></a>
+
+      <nav>
+        <a href="#home" class="active"> Home</a>
+        <a href="#services">Services</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Home -->
+    <section class="home" id="home">
+      <div class="home-img">
+        <img src="./img/Lucid_Origin_a_stylized_logo_of_a_programmer_with_bold_red_and_0-removebg-preview.png" alt="" />
+      </div>
+      <div class="home-content">
+        <h1>Hi, I' m <span>Adam Masoud</span></h1>
+        <h3 class="typing-text">I'm a <span></span></h3>
+        <p>
+          I create modern and responsive websites for businesses and individuals.
+        </p>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <a href="#" class="btn">Hire me</a>
+      </div>
+    </section>
+
+    <!-- ✅ الأقسام الجديدة برّه الـ home-content -->
+
+<!-- Services Section -->
+<section class="services" id="services">
+  <h2>Services</h2>
+  <div class="services-item-box">
+  <div class="service-item">
+    <h3>Web Development</h3>
+    <p>Building responsive, dynamic, and user-friendly websites tailored to client needs.</p>
+  </div>
+  <div class="service-item">
+    <h3>UI/UX Design</h3>
+    <p>Designing intuitive user interfaces that enhance user experience and engagement.</p>
+  </div>
+  <div class="service-item">
+    <h3>SEO Optimization</h3>
+    <p>Improving website ranking and visibility on search engines through modern SEO techniques.</p>
+  </div>
+  </div>
+</section>
+
+
+
+<!-- Skills Section -->
+<section class="skills" id="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li>HTML5 / CSS3 / JavaScript</li>
+    <li>React.js / Next.js</li>
+    <li>Node.js / Express</li>
+    <li>MongoDB / MySQL</li>
+    <li>UI/UX Design</li>
+    <li>Version Control (Git & GitHub)</li>
+    <li>Robotix Maker</li>
+  </ul>
+</section>
+
+<!-- Education Section -->
+<section class="education" id="education">
+  <h2>Education</h2>
+  <div class="edu-item">
+    <h3>Bachelor of Computer Science</h3>
+    <p class="date">2016 - 2020</p>
+    <p>University of Technology – Specialized in Software Engineering, studied algorithms, data structures, and full-stack development.</p>
+  </div>
+  <div class="edu-item">
+    <h3>Web Development Bootcamp</h3>
+    <p class="date">2020</p>
+    <p>Completed an intensive coding bootcamp focused on MERN stack, responsive design, and real-world projects.</p>
+  </div>
+</section>
+
+<section class="experience" id="experience">
+  <h2>Experience</h2>
+  <div class="exp-item">
+    <h3>Front-End Developer <span>@ TechCorp</span></h3>
+    <p class="date">2021 - Present</p>
+    <p>Developed modern and responsive web applications using HTML, CSS, JavaScript, and React. Collaborated with designers and backend developers to deliver high-quality products.</p>
+  </div>
+  <div class="exp-item">
+    <h3>Web Designer <span>@ Creative Studio</span></h3>
+    <p class="date">2019 - 2021</p>
+    <p>Designed user-friendly interfaces, optimized website performance, and implemented SEO best practices to increase traffic and engagement.</p>
+  </div>
+</section>
+
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+  <h2>Contact</h2>
+  <form action="https://formsubmit.co/adammasoud225@gmail.com" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required />
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required />
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+  </form>
+</section>
+    <script src="main.js"></script>
+  </body>
+</html>
